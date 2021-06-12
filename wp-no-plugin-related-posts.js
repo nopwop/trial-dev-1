@@ -21,8 +21,8 @@ const wpnopRelatedPosts = (function() {
     var classes = el[0].className.split(' ')
     var postid = null
     classes.forEach((i) => {if (i.split('-')[0] == 'postid') postid = i.split('-')[1]})
-    //return postid
-    return '6951'
+    return postid
+    //return '6951'
   }
 
   function postById(post_id) {
